@@ -24,5 +24,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-    - name: Publish to GitHub Packages Apache Maven
-      uses: samuelmeuli/action-maven-publish@v1
+    
