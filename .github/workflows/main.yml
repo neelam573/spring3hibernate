@@ -25,4 +25,4 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven
-      uses: danubetech/github-action-maven-deploy@master
+      uses: samuelmeuli/action-maven-publish@v1
